@@ -1,10 +1,10 @@
          
          body {
-            background-image: url('../images/backgroundimg/internLogin2.jpg');
+            background: linear-gradient(to right, #ffd83a, #f9f9f9);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-color: rgba(0, 0, 0, 0.3); 
+            background-color: rgba(253, 149, 248, 0.3); 
             background-blend-mode: darken; 
         }
 
