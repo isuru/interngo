@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <footer id="contact">
         <div class="contacts">
-        <strong><p>Contact Us</p></strong>
+        <strong><p>Contact Us</p></strong><br>
         <p>Phone: 123-456-7890</p>
-        <e>Email: aasjns@gmail.com</p>
-        <address>Address : 123 Main St, New York, NY 10001</address>
+        <e>Email: interngo@gmail.com</p>
+        <address>Address : 123 ,Colombo 07, Sri Lanka</address>
         </div>
 
-        <p class="copy" style="text-align:center">&copy; 2025 </p>
+        <p class="copy">&copy; 2025-interngo </p>
     </footer>
 </body>
 </html>
