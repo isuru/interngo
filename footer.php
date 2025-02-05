@@ -15,7 +15,7 @@
         <address>Address : 123 Main St, New York, NY 10001</address>
         </div>
 
-        <p class="copy">&copy; 2025 </p>
+        <p class="copy" style="text-align:center">&copy; 2025 </p>
     </footer>
 </body>
 </html>
