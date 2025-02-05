@@ -1,0 +1,85 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    width: 100%;
+}
+
+body {
+    background-image: url('../images/backgroundimg/loginback3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.3); 
+    background-blend-mode: darken; 
+}
+
+.headercl{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+.headercl:hover{
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap:50px;
+    margin-right: 50px;
+}
+
+
+.card{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #2ddfff;
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    transition: 0.5s;
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+
+
+.cardlbl{
+    font-size: 50px;
+    font-weight: bold;
+    color: #022022;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.signplink{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: navy;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.signplink:hover{
+    color:crimson;
+    font-size: 19px;
+    font-weight: 300;
+}
