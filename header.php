@@ -9,7 +9,7 @@
 <body>
 
 <header>
-        <div class="logo"><img src="images/logo.png" alt="logo"></span></div>
+        <div class="logo"><img src="images/dulsh/logo.png" alt="logo"></span></div>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
