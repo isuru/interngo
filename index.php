@@ -8,9 +8,8 @@
     
 </head>
 <body>
+
 <?php include('header.php');?>
-
-
 
 <main class="container">
         <section class="hero">
@@ -50,5 +49,6 @@
 <!-- Footer Section Finished -->
 
 <?php include('footer.php');?>
+
 </body>
 </html>
