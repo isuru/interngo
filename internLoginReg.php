@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intern Go | Login</title>
 
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/registration.css">
     <script src="scripts/internreg.js"></script>
 
 </head>
 <body>
+    <?php include('./nav.php'); ?>
 
-    
     <div class="mainContainer">
 
         <form name="internRegistration" onsubmit="return doValidate()" method="POST" action="" class="formContainer">

@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/registration.css">
     <script src="scripts/companyreg.js"></script>
 
 </head>
 <body>
-
+    <?php include('./nav.php'); ?>
     
     <div class="mainContainer">
 
@@ -59,5 +60,4 @@
     </div>
     
 
-</body>
-</html>
+    <?php include('footer.php');?>
