@@ -9,7 +9,7 @@ if(isset($_POST['internAcc'])){
     $userName = $_POST['userName'];
     $password = $_POST['password'];
 
-    $sql = "INSERT INTO `internlogindetails` ($txtnamewithini, $nic, $userName , `password`, `status`, `createdate`, `adminremarks`) VALUES (NULL, '', '', '', '', '', current_timestamp(), '')";
+    
 
 
 }

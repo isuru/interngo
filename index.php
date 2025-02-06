@@ -8,15 +8,14 @@
     
 </head>
 <body>
+
 <?php include('header.php');?>
-
-
 
 <main class="container">
         <section class="hero">
             <h1>Explore the Journey</h1>
             <p>Unlock a world of possibilities with our platform. Connect with businesses eager to find intern talent and take the first step toward your dream career. Showcase your skills, gain hands-on experience, and build valuable connections. Your professional journey starts here. Ready to embark on an exciting adventure? Don't wait—try it now and make your mark.</p>
-            <button class="cta-button">try it now</button>
+            <a href="login.html"><button class="cta-button">Try it Now</button></a>
         </section>
 
         <section class="about1">
@@ -50,5 +49,6 @@
 <!-- Footer Section Finished -->
 
 <?php include('footer.php');?>
+
 </body>
 </html>

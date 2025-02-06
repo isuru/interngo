@@ -7,7 +7,7 @@
     <style>
 
         body {
-            background: linear-gradient(to right, #86dcef, #e9ebef, #e1dee0); /* Blue to White-Pink gradient */
+            background: linear-gradient(to right, #86dcef, #e9ebef, #e1dee0);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -49,16 +49,18 @@
             border-radius: 5px;
             cursor: pointer;
         }
+        
         .btn:hover {
             background-color: #218838;
         }
+
     </style>
 </head>
 <body>
 
 <div class="container">
     <h2>Intern Registration Form</h2>
-    <form name="internForm" action="process_registration.php" method="POST"  onsubmit="return validateForm()">
+    <form name="internForm" action="" method="POST"  onsubmit="return validateForm()">
 
         <!-- Personal Information -->
         <div class="form-group">
@@ -144,7 +146,6 @@
                 <option value="6 months">6 Months</option>
             </select>
         </div>
-
 
 
         <!-- Skills & Experience -->

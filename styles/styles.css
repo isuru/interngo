@@ -11,11 +11,11 @@ header {
 }
 
 .logo img{
-    box-shadow: 0 4px 8px 0 #ffd700, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .logo img:hover{
-    background-color: #927b00;
+    background-color: #00ccff;
 }
 
 nav ul {
@@ -39,9 +39,6 @@ nav ul li a:hover {
 
 /*=======================Content=======================================*/
 
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -50,7 +47,7 @@ nav ul li a:hover {
 }
 
 body {
-    background: linear-gradient(to right , #000447,#000bcc,#ffd700);
+    background: linear-gradient(to right , #d966f6,#018ffbc5,#ffffff);
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
@@ -71,38 +68,32 @@ body {
 }
 
 .hero h1 {
-    font-size: 40px;
+    font-size: 90px;
     font-weight: 600;
     color: #fff;
 }
 
 .hero p {
-    font-size: 16px;
+    font-size: 20px;
     margin: 15px 0;
     line-height: 1.5;
-    color: #fef5c1;
+    color: #ffffff;
 }
 
 .cta-button {
-    background: #26ddff;
+    background: #409dfb;
     padding: 12px 24px;
-    font-size: 16px;
+    font-size: 18px;
     border: none;
     border-radius: 25px;
-    color: #000334;
+    color: #000000;
     cursor: pointer;
     transition: 0.3s;
-    text-shadow: 1px 1px 1px #ffe34f;
-    box-shadow: 1px 1px 1px 1px #ffe34f;
-    font-weight: bold;
-}
+   }
 
 .cta-button:hover {
-    background: #ffe34f;
-    color: #393000;
-    text-shadow: 2px 2px 2px #fff;
-    box-shadow: 1px 1px 1px 1px #26ddff;
-   
+    background: #1da1ff;
+    color: #000000;
 }
 
 /*=======================About=======================================*/
@@ -118,12 +109,12 @@ body {
 }
 
 .about1-box h2 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600;
 }
 
 .about1-box p {
-    font-size: 14px;
+    font-size: 16px;
     margin: 10px 0;
     line-height: 1.5;
 }
