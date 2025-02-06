@@ -1,6 +1,6 @@
 <?php
 
-    $host = "localhist";
+    $host = "localhost";
     $username = "root";
     $password = "";
     $database = "interngo";
