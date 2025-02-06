@@ -32,17 +32,17 @@
 <section class="weare">
     <div class="we1">
         <h2>Our Mission</h2>
-        <img src="images/mission.jpg" alt="We are">
+        <img src="images/dulsh/mission.jpg" alt="We are">
         <p>Our mission is to bridge the gap between ambitious interns and forward-thinking companies. We strive to create a dynamic and supportive environment where both parties can thrive and achieve their goals.</p>
     </div>
     <div class="we2">
         <h2>For Interns</h2>
-        <img src="images/intern.jpg" alt="We are">
+        <img src="images/dulsh/intern.jpg" alt="We are">
         <p>Access to a diverse range of internship opportunities across various industries. Our platform is designed to help you showcase your skills, build your network, and gain valuable experience.</p>
     </div>
     <div class="we3">
         <h2>For Employers</h2>
-        <img src="images/employers.jpg" alt="We are">
+        <img src="images/dulsh/employers.jpg" alt="We are">
         <p>A comprehensive database of talented and motivated interns ready to contribute to your organization. Our user-friendly search and filtering options make it easy to find the perfect match for your needs.</p>
     </div>
 </section>
