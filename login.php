@@ -5,28 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/login.css">
-
 </head>
 <body>
-
-    <div class="header">
-        <a href="index.php"><h1 class="headercl">InternGO</h1></a>
-        <hr><br>
-    </div>
+    <?php include('./nav.php'); ?>
     
-    <div class="container">
+    <div class="container" style="margin-top:50px">
 
-        <div class="card" onclick="location.href='intern.html'">
+        <div class="card" onclick="location.href='./intern.html'">
             <label class="cardlbl">Login as Intern</label>
 
-            <a href="internLoginReg.html" alt="Intern Registration" class="signplink">First Time here ? Create an Account</a>
+            <a href="./internLoginReg.php" alt="Intern Registration" class="signplink">First Time here ? Create an Account</a>
         </div>
 
         <div class="card" onclick="location.href='company.html'">
             <label class="cardlbl">Login as Company</label>
 
-            <a href="companyLoginReg.html" alt="Company Registration" class="signplink">New here ? Sign up now !</a>
+            <a href="./companyLoginReg.php" alt="Company Registration" class="signplink">New here ? Sign up now !</a>
         </div>
 
     </div>

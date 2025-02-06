@@ -3,14 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Intern Go | Login</title>
 
     <link rel="stylesheet" href="styles/registration.css">
-
-    
-
     <script src="scripts/internreg.js"></script>
-
 
 </head>
 <body>
@@ -62,6 +58,4 @@
     
     </div>
     
-
-</body>
-</html>
+    <?php include('footer.php');?>
