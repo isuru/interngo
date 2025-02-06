@@ -47,6 +47,7 @@
     </div>
 </section>
 
+<!-- Footer Section Finished -->
 
 <?php include('footer.php');?>
 </body>
