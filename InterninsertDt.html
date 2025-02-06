@@ -7,16 +7,18 @@
     <style>
 
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background: linear-gradient(to right, #86dcef, #e9ebef, #e1dee0); /* Blue to White-Pink gradient */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             margin: 0;
-            padding: 0;
+            font-family: Arial, sans-serif;
         }
         .container {
-            margin-top: 10px;
             width: 50%;
+            margin-top: 10px;
             margin: auto;
-            background: white;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -113,11 +115,25 @@
         </div>
 
         <!-- Internship Preferences -->
+        
         <h3>Internship Preferences</h3>
 
         <div class="form-group">
+            <label for="jobCategory">Select Job Category:</label>
+            <select id="jobCategory" name="jobCategory" onchange="updateRoles()" required>
+                <option value="">Select a Category</option>
+                <option value="IT">Information Technology</option>
+                <option value="Engineering">Engineering</option>
+                <option value="Business">Business & Finance</option>
+                <option value="Healthcare">Healthcare & Medical</option>
+            </select>
+        </div>
+
+        <div class="form-group">
             <label for="role">Preferred Internship Role:</label>
-            <input type="text" id="role" name="role" required>
+            <select id="role" name="role" required>
+                <option value="">Select a Role</option>
+            </select>
         </div>
 
         <div class="form-group">
@@ -128,6 +144,8 @@
                 <option value="6 months">6 Months</option>
             </select>
         </div>
+
+
 
         <!-- Skills & Experience -->
         <h3>Skills & Experience</h3>
@@ -158,6 +176,47 @@
     </form>
 </div>
 
+
+
+<script>
+    function updateRoles() {
+        let jobCategory = document.getElementById("jobCategory").value;
+        let roleDropdown = document.getElementById("role");
+    
+        // Clear existing options
+        roleDropdown.innerHTML = '<option value="">Select a Role</option>';
+    
+        // Define role options based on category
+        let roles = {
+            "IT": ["Software Developer", "Web Developer", "Data Analyst", "Cybersecurity Intern"],
+            "Engineering": ["Mechanical Engineer", "Electrical Engineer", "Civil Engineer"],
+            "Business": ["Marketing Intern", "Finance Analyst", "HR Assistant"],
+            "Healthcare": ["Medical Assistant", "Pharmacy Intern", "Biomedical Researcher"]
+        };
+    
+        // Populate new roles based on selected category
+        if (roles[jobCategory]) {
+            roles[jobCategory].forEach(function(role) {
+                let option = document.createElement("option");
+                option.value = role;
+                option.textContent = role;
+                roleDropdown.appendChild(option);
+            });
+        }
+    }
+    
+    function validateForm() {
+        let jobCategory = document.getElementById("jobCategory").value;
+        let role = document.getElementById("role").value;
+    
+        if (jobCategory === "" || role === "") {
+            alert("Please select a Job Category and Role.");
+            return false;
+        }
+    
+        return true;
+    }
+    </script>
 
 
 </body>
