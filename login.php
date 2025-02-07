@@ -13,13 +13,13 @@
     
     <div class="container" style="margin-top:50px">
 
-        <div class="card" onclick="location.href='./intern.html'">
+        <div class="card" onclick="location.href='./loginIntern.php'">
             <label class="cardlbl">Login as Intern</label>
 
             <a href="./internLoginReg.php" alt="Intern Registration" class="signplink">First Time here ? Create an Account</a>
         </div>
 
-        <div class="card" onclick="location.href='company.html'">
+        <div class="card" onclick="location.href='./loginCompany.php'">
             <label class="cardlbl">Login as Company</label>
 
             <a href="./companyLoginReg.php" alt="Company Registration" class="signplink">New here ? Sign up now !</a>
