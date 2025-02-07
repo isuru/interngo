@@ -50,7 +50,7 @@ body {
     background: linear-gradient(to right , #d966f6,#018ffbc5,#ffffff);
     background-size: cover;
     background-position: center;
-    background-repeat: repeat;
+    /* background-repeat: repeat; */
     background-blend-mode: darken; 
     height: 100vh;
     display: flex;
@@ -60,11 +60,16 @@ body {
     
 }
 
+.container {
+    background: url("/images/home/graduate.jpg") repeat-x;
+}
 
 .hero {
     margin: 1000px 0 300px 50px;
+    padding: 72px 20px;
     max-width: 50%;
     position: relative;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .hero h1 {
