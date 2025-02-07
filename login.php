@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/login.css">
 </head>
-<body>
+<body class="loginbody">
+    
     <?php include('./nav.php'); ?>
     
     <div class="container" style="margin-top:50px">
@@ -27,4 +28,6 @@
 
     </div>
     
-    <?php include('footer.php');?>
+    
+    </body>
+</html>

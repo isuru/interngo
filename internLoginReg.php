@@ -15,7 +15,7 @@
 
     <div class="mainContainer">
 
-        <form name="internRegistration" onsubmit="return doValidate()" method="POST" action="" class="formContainer">
+        <form name="internRegistration" onsubmit="return doValidate()" method="POST" action="internLogData.php" class="formContainer">
     
             <div class="headercl">
                 <h1 class="headerh1">Welcome to Intern Enrollment</h1>
