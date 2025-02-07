@@ -6,7 +6,7 @@
         <address>Address : 123 ,Colombo 07, Sri Lanka</address>
         </div>
 
-        <p class="copy">&copy; 2025-interngo </p>
+        <p class="copy">Copyright &copy; 2025-interngo </p>
     </footer>
 
 </body>

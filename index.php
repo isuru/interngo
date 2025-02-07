@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<?php include('./nav.php'); ?>
+    <?php include('./nav.php'); ?>
 
     <main class="container">
             <section class="hero">
