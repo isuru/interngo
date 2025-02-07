@@ -4,59 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intern Registration</title>
-    <style>
 
-        body {
-            background: linear-gradient(to right, #86dcef, #e9ebef, #e1dee0);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            width: 50%;
-            margin-top: 10px;
-            margin: auto;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            text-align: center;
-            color: #333;
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        label {
-            font-weight: bold;
-        }
-        input, select, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .btn {
-            width: 100%;
-            background-color: #28a745;
-            color: white;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        
-        .btn:hover {
-            background-color: #218838;
-        }
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="./styles/internRegDt.css">
 
-    </style>
 </head>
 <body>
+
+<?php include('./nav.php'); ?>
 
 <div class="container">
     <h2>Intern Registration Form</h2>
@@ -220,5 +175,4 @@
     </script>
 
 
-</body>
-</html>
+<?php include('footer.php');?>
