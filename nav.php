@@ -1,4 +1,4 @@
-<header>
+<header style="left: 50px;">
     <div class="logo">
       <a href="/"><img src="./images/logo.png" alt="logo"></span></a>
     </div>
