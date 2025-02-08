@@ -61,7 +61,7 @@ body {
 }
 
 .container {
-    background: url("/images/home/graduate.jpg") repeat-x;
+    background: url("../images/home/graduate.jpg") repeat-x;
 }
 
 .hero {
