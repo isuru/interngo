@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <div class="header"><a href="./index.php" alt="home">Intern GO</a></div>
+    <div class="header"><a href="./index.php" alt="home" style="text-decoration: none;">Intern GO</a></div>
 
     <div class="container">
 

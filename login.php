@@ -12,7 +12,7 @@
     
     <?php include('./nav.php'); ?>
     
-    <div class="container" style="margin-top:50px">
+    <div class="containerlo" style="margin-top:50px">
 
         <div class="card" onclick="location.href='./loginIntern.php'">
             <label class="cardlbl">Login as Intern</label>

@@ -7,7 +7,7 @@ html, body {
 
 .loginbody {
     
-    background: linear-gradient(to right,#08c2f1, #fbfbf9, #08c2f1, #ff99cc);
+    background: linear-gradient(to right,#3e3e3e, #666666, #a3aeb1, #9ef1fc);
     
 }
 
@@ -24,7 +24,7 @@ html, body {
     color: rgb(255, 255, 255);
 }
 
-.container{
+.containerlo{
     display: flex;
     flex-direction: row;
     justify-content: right;
