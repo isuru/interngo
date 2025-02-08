@@ -1,3 +1,18 @@
+<?php
+
+
+    
+    if (isset($_SESSION['isInternLoggedIn']) && $_SESSION['isInternLoggedIn']) {
+        echo "Intern Logged in";
+    } else {
+        echo "Intern NOT Logged in";
+       // header("Location: loginIntern.php");
+       // exit();
+    }
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +26,10 @@
 </head>
 <body clas="internDashboard">
 
-    <div class="header"><a href="index.php" style="text-decoration: none; color: white;">InternGO </a> <button class="logout-button" onclick="logout()">Logout</button></div>
+    <div class="header">
+        <a href="index.php" style="text-decoration: none; color: white;">InternGO </a> 
+        <button class="logout-button" onclick="logout()">Logout</button>
+    </div>
 
     <div class="dashboard-container">
 
@@ -36,11 +54,10 @@
     </div>
 
 
-    <!-- This Script for Logout Session -->
-
-    <script>
-        function logout() {
-            window.location.href = 'login.php';
+    
+    <script>    
+        function logout() {     
+            window.location.href = 'loginIntern.php?logout=true';
         }
     </script>
 

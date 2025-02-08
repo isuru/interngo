@@ -19,6 +19,8 @@
 
                 if(password_verify($password, $row['password'])){
 
+                    $_SESSION['isInternLoggedIn'] = true;
+                    $_SESSION['internID']= $row['id'];
                     $_SESSION['username'] = $username;
                     $_SESSION['displayname'] = $row['nameInitial'];
 
@@ -32,10 +34,11 @@
                 }
 
             }
-       
 
+        } else {
+
+            echo "Page Not Found ...! ";
         }
-    
 
 
 
