@@ -38,9 +38,9 @@
 
         <div class="dashboard">
             <a href="InternRegistrationForm.php" class="internDash_a"><div class="card">Add Intern Details</div></a>
-            <div class="card">View Interns Details</div>
+            <div class="card">View My Profile</div>
             <div class="card">View Notifications from Company</div>
-            <div class="card">Modify Intern Details</div>
+            <div class="card">Modify My Account Details</div>
         </div>
 
     </div>
