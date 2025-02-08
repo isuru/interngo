@@ -14,9 +14,6 @@ header {
     box-shadow: 0 4px 8px 0 , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.logo img:hover{
-    background-color: #00ccff;
-}
 
 nav ul {
     list-style: none;
@@ -46,7 +43,7 @@ nav ul li a:hover {
     font-family: 'Poppins', sans-serif;
 }
 
-body {
+body#index-body {
     background: linear-gradient(to right , #d966f6,#018ffbc5,#ffffff);
     background-size: cover;
     background-position: center;
@@ -191,28 +188,76 @@ body {
 
 footer {
     position: relative; 
-    background: linear-gradient(to right , #000222,#584c02);
+    background-color: rgb(21, 39, 39);
     color: #fff;
     font-family: Arial, sans-serif;
-    text-decoration: none;
     width: 100%;
     height: 300px;
     margin-top: auto; 
-    padding-top: 10px;
+    padding-top: 80px;
     border-top: 1px solid #ffd700;
 }
 
 .contacts {
     font-size: 15px;
-    text-align: left;
-    height: 100px;
-    margin: 15px 0 0 200px;
+    text-align: center;
+    height: 150px;
+    margin: 15px 0 0 0;
 }
+
 
 .copy {
     font-size: 11px;
-    padding: 10px;
+    padding: 15px;
 }
 
+
+/*======================ABOUT PAGE=====================================*/
+
+body#about-body{
+    background: linear-gradient(to right , #070994,#5355db,#9165e2);
+}
+
+.about{
+    padding: 50px;
+    margin: 120px 50px 100px 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about li{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about h2{
+    text-decoration: underline;
+}
+
+/*======================CONTACT PAGE=====================================*/
+
+
+
+body#contact-body{
+    background: linear-gradient(to right , #070994,#5355db,#9165e2);
+}
+
+.contact1{
+    width: 80%;
+    margin: 200px 0 500px 200px;
+    padding: 50px;
+    color: white;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact1 p{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 

@@ -6,11 +6,14 @@
     <title>Intern Go</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body>
+<body id="index-body">
 
     <?php include('./nav.php'); ?>
 
     <main>
+
+    <section class="main-container">
+
         <div class="container">
             <section class="hero">
                 <h1>Explore the Journey</h1>
@@ -44,6 +47,8 @@
             <img src="./images/home/employers.jpg" alt="We are">
             <p>A comprehensive database of talented and motivated interns ready to contribute to your organization. Our user-friendly search and filtering options make it easy to find the perfect match for your needs.</p>
         </div>
+    </section>
+
     </section>
 
     <!-- Footer Section Finished -->
