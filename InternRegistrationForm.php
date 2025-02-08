@@ -101,7 +101,7 @@
         </div>
 
 
-        <!-- Skills & Experience -->
+        <!-- Skills and Experience -->
         <h3>Skills & Experience</h3>
 
         <div class="form-group">
