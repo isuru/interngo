@@ -16,7 +16,7 @@
 
         <h2>Intern Login</h2>
 
-        <form action="" method="POST">
+        <form action="loginInternBackend.php" method="POST">
             
             <div class="form-group">
                 <label for="username">User Name:</label>
@@ -28,7 +28,7 @@
                 <input type="password" id="password" name="password" required>
             </div>
 
-            <input type="submit" value="Login" class="btn">
+            <input type="submit" value="Login" name="loginIntern" class="btn">
 
             <div class="links">
                 <a href="#">Forgot Password?</a> 

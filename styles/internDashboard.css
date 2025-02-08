@@ -1,0 +1,74 @@
+
+    .internDashboard {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to bottom , #a9a9a9 ,#e7e6e6);
+        text-align: center;
+    }
+    .header {
+        background-color: #3e6c9f;
+        color: white;
+        padding: 15px;
+        font-size: 24px;
+        text-align: left;
+        font-weight: bold;
+    }
+    .logout-button {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        background-color: rgb(213, 37, 37);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .dashboard-container {
+        padding: 20px;
+        text-align: center;
+    }
+    .dashboard-title {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .dashboard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        gap: 20px;
+    }
+    .card {
+        background-color: #3DB7DD;
+        color: white;
+        width: 250px;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .card:hover {
+        background-color: #33A1C9;
+    }
+    .footer {
+        background-color: #333;
+        color: white;
+        padding: 15px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .internDash_a{
+        text-decoration: none;
+        color: black;
+    }

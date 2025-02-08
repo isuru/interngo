@@ -15,7 +15,7 @@
     
     <div class="mainContainer">
 
-        <form name="companyRegistration" onsubmit="return doValidate()" method="POST" class="formContainer">
+        <form name="companyRegistration" onsubmit="return doValidate()" method="POST" action="companyLoginRegBackend.php" class="formContainer">
     
             <div class="headercl">
                 <h1 class="headerh1">Welcome to Company Enrollment</h1>

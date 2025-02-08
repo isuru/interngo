@@ -5,13 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intern Registration</title>
 
-    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="./styles/internRegDt.css">
 
 </head>
 <body>
 
-<?php include('./nav.php'); ?>
 
 <div class="container">
     <h2>Intern Registration Form</h2>
@@ -174,5 +172,5 @@
     }
     </script>
 
-
-<?php include('footer.php');?>
+</body>
+</html>
