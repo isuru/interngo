@@ -58,7 +58,10 @@ body#index-body {
 }
 
 .container {
-    background: url("../images/home/graduate.jpg") repeat-x;
+    background: url("../images/home/graduate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero {

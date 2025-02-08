@@ -1,3 +1,15 @@
+<?php
+
+    if(isset($_GET['logout']) && $_GET['logout']) {
+
+        $_SESSION['isUserLoggedIn'] = false;
+        unset($_SESSION['internID']);
+        unset($_SESSION['username']);
+        unset($_SESSION['displayname']);
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
