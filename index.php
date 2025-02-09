@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO META TAG -->
+    <meta name="keywords" content="internship, jobs, vacancies, company, student apply, job interview, management, IT jobs, engineering, software developer, executive positions, office clerk, job-seekers">
+
+ 
+
     <title>Intern Go</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
