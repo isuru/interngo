@@ -2,6 +2,11 @@
 
     session_start();
 
+    if (isset($_SESSION['isInternLoggedIn']) && $_SESSION['isInternLoggedIn'] === true) {
+        header("Location: internDashboard.php");
+        exit();
+    }
+
     include 'conf/db-config.php';
 
         if(isset($_POST['loginIntern'])){
