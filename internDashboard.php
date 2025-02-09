@@ -1,7 +1,7 @@
 <?php
 session_start(); 
 
-// Check if the user is logged in
+// this is use for Check if the user is logged in
 if (!isset($_SESSION['isInternLoggedIn']) || $_SESSION['isInternLoggedIn'] !== true) {
     header("Location: loginIntern.php");
     exit();
@@ -31,10 +31,16 @@ if (!isset($_SESSION['isInternLoggedIn']) || $_SESSION['isInternLoggedIn'] !== t
         <hr>
 
         <div class="dashboard">
-            <a href="InternRegistrationForm.php" class="internDash_a"><div class="card">Add Intern Details</div></a>
+            <a href="InternRegistrationForm.php" class="internDash_a"><div class="card">Add My Qulifications</div></a>
+
+            <a href="updateInternDetails.php?id=<?php echo isset($_SESSION['username']) ? $_SESSION['username'] : ''; ?>" class="internDash_a">
+                <div class="card">Update My Qualifications </div>
+            </a>
+
             <a href="viewInterndetails.php" class="internDash_a"><div class="card">View My Account Details</div></a>
+
             <div class="card">View Notifications from Company</div>
-            <div class="card">Modify My Account Details</div>
+
         </div>
     </div>
 
