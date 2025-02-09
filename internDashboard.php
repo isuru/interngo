@@ -1,17 +1,13 @@
 <?php
+session_start(); 
 
-
-    
-    if (isset($_SESSION['isInternLoggedIn']) && $_SESSION['isInternLoggedIn']) {
-        echo "Intern Logged in";
-    } else {
-        echo "Intern NOT Logged in";
-       // header("Location: loginIntern.php");
-       // exit();
-    }
+// Check if the user is logged in
+if (!isset($_SESSION['isInternLoggedIn']) || $_SESSION['isInternLoggedIn'] !== true) {
+    header("Location: loginIntern.php");
+    exit();
+}
 
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -19,12 +15,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intern Dashboard</title>
-
     <link rel="stylesheet" href="./styles/internDashboard.css">
-
-    
 </head>
-<body clas="internDashboard">
+<body>
 
     <div class="header">
         <a href="index.php" style="text-decoration: none; color: white;">InternGO </a> 
@@ -32,17 +25,17 @@
     </div>
 
     <div class="dashboard-container">
-
-        <div class="dashboard-title">Welcome to Intern Dashboard, Embark on Your Professional Journey</div>
+        <div class="dashboard-title">
+            Welcome to Intern Dashboard, <?php echo htmlspecialchars($_SESSION['displayname']); ?>!
+        </div>
         <hr>
 
         <div class="dashboard">
             <a href="InternRegistrationForm.php" class="internDash_a"><div class="card">Add Intern Details</div></a>
-            <div class="card">View My Profile</div>
+            <a href="viewInterndetails.php" class="internDash_a"><div class="card">View My Account Details</div></a>
             <div class="card">View Notifications from Company</div>
             <div class="card">Modify My Account Details</div>
         </div>
-
     </div>
 
     <div class="footer">
@@ -53,11 +46,9 @@
         <p>&copy; 2025 InternGO. All rights reserved.</p>
     </div>
 
-
-    
-    <script>    
+    <script>
         function logout() {     
-            window.location.href = 'loginIntern.php?logout=true';
+            window.location.href = 'logout.php';
         }
     </script>
 

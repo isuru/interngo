@@ -2,19 +2,19 @@
 
     session_start();
 
-    if (isset($_SESSION['isInternLoggedIn']) && $_SESSION['isInternLoggedIn'] === true) {
-        header("Location: internDashboard.php");
+    if (isset($_SESSION['isCompanyLoggedIn']) && $_SESSION['isCompanyLoggedIn'] === true) {
+        header("Location: CompanyDashboard.php");
         exit();
     }
 
     include 'conf/db-config.php';
 
-        if(isset($_POST['loginIntern'])){
+        if(isset($_POST['companylog'])){
 
             $username = $_POST['username'];
             $password = $_POST['password'];
 
-            $sql = "SELECT * FROM interncredential WHERE status='1' and username='$username' ";
+            $sql = "SELECT * FROM companycredential WHERE status='1' and username='$username' ";
 
             $result = mysqli_query($conn , $sql);
 
@@ -24,17 +24,17 @@
 
                 if(password_verify($password, $row['password'])){
 
-                    $_SESSION['isInternLoggedIn'] = true;
-                    $_SESSION['internID']= $row['id'];
+                    $_SESSION['isCompanyLoggedIn'] = true;
+                    $_SESSION['companyId']= $row['id'];
                     $_SESSION['username'] = $username;
-                    $_SESSION['displayname'] = $row['nameInitial'];
+                    $_SESSION['comdisplayname'] = $row['compname'];
 
-                    header("Location: internDashboard.php");
+                    header("Location: CompanyDashboard.php");
                     exit();
 
                 }
                 else{
-                    echo "<script>alert('Username or Password incorrect'); window.location.href='loginIntern.php';</script>";
+                    echo "<script>alert('Username or Password incorrect'); window.location.href='loginCompany.php';</script>";
                     exit();
                 }
 

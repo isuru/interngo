@@ -13,7 +13,8 @@
 
 <div class="container">
     <h2>Intern Registration Form</h2>
-    <form name="internForm" action="" method="POST"  onsubmit="return validateForm()">
+
+    <form name="internForm" action="InternRegistrationFormBackend.php" method="POST"  onsubmit="return validateForm()" enctype="multipart/form-data">
 
         <!-- Personal Information -->
         <div class="form-group">
@@ -118,14 +119,14 @@
         <h3>Upload Documents</h3>
 
         <div class="form-group">
-            <label for="resume">Upload Resume (PDF/DOCX):</label>
-            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            <label for="cvFile">Upload Resume (PDF/DOCX):</label>
+            <input type="file" id="cvFile" name="cvFile" accept=".pdf,.doc,.docx" required>
         </div>
 
 
 
         <!-- Submit Button -->
-        <input type="submit" value="Register" class="btn">
+        <input type="submit" value="Save Details" name="savedetails" class="btn">
         
     </form>
 </div>
